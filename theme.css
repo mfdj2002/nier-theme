@@ -575,6 +575,11 @@ pre[class*='language-'] {
 /*background image*/
 .workspace-leaf-content .view-content {
   z-index: 0;
+  position: relative;
+}
+.workspace-leaf-content .view-header {
+  position: relative;
+  z-index: 1;
 }
 .workspace-leaf-content .view-content::after {
   z-index: -1;
