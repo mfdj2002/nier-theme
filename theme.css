@@ -577,10 +577,6 @@ pre[class*='language-'] {
   z-index: 0;
   position: relative;
 }
-.workspace-leaf-content .view-header {
-  position: relative;
-  z-index: 1;
-}
 .workspace-leaf-content .view-content::after {
   z-index: -1;
   content: "";
