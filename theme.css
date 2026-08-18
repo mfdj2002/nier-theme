@@ -579,6 +579,8 @@ pre[class*='language-'] {
 }
 .document-search-container {
   background-color: var(--background-primary);
+  position: relative;
+  z-index: 1;
 }
 .workspace-leaf-content .view-content::after {
   z-index: -1;
